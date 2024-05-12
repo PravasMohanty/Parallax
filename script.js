@@ -10,6 +10,7 @@ window.addEventListener('scroll',() =>{
     text.style.marginTop = value*2.5+'px';
     leaf.style.top = -2.5*value+'px';
     leaf.style.left = 1.5*value+'px';
-    hill4.style.left = value*1.5 + 'px';
-    hill5.style.left = -1.5*value* + 'px';
+    hill5.style.left = 1.5*value + 'px';
+    hill4.style.left = -1.5*value + 'px';
+    hill1.style.top = value*1 + 'px';
 })
