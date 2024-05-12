@@ -12,5 +12,11 @@ window.addEventListener('scroll',() =>{
     leaf.style.left = 1.5*value+'px';
     hill5.style.left = 1.5*value + 'px';
     hill4.style.left = -1.5*value + 'px';
-    hill1.style.top = value*1 + 'px';
+    hill1.style.top = value*0.9 + 'px';
+
+    if (value>1000) {
+    hill1.style.top =  '0px';
+    }
+
 })
+
